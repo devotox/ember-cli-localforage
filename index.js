@@ -1,24 +1,27 @@
 /* eslint-env node */
-
-const path = require('path');
-const Funnel = require('broccoli-funnel');
-const MergeTrees = require('broccoli-merge-trees');
+var FastbootTransform = require('fastboot-transform');
 
 module.exports = {
   name: 'ember-cli-localforage',
+  options: {
+  nodeAssets: {
+    localforage: {
+      vendor: {
+          srcDir: 'dist',
+          include: ['localforage.js'],
+          processTree(input) {
+          return FastbootTransform(input);
+        }
+      }
+    }
+  }
+  },
   included() {
     this._super.included.apply(this, arguments);
     this._ensureThisImport();
 
-    this.import('vendor/localforage.js');
+    this.import('vendor/localforage/localforage.js');
     this.import('vendor/shims/localforage.js');
-  },
-  treeForVendor(vendorTree) {
-    let localforageTree = new Funnel(path.dirname(require.resolve('localforage/dist/localforage.js')), {
-      files: ['localforage.js'],
-    });
-
-    return new MergeTrees([vendorTree, localforageTree]);
   },
   _ensureThisImport() {
     if (!this.import) {
