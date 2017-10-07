@@ -60,6 +60,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "https://devotox.github.io/ember-cli-localforage",
+    "demoURL": "https://devotox.github.io/ember-cli-localforage"
   }
 }
