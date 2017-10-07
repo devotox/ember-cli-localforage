@@ -8,6 +8,11 @@ module.exports = function(defaults) {
     // Add options here
     fingerprint: {
       enabled: false
+    },
+    'ember-cli-babel': {
+      compileModules: true,
+      includePolyfill: true,
+      disableDebugTooling: false
     }
   });
 
