@@ -1,26 +1,17 @@
 # ember-localforage
 
-This README outlines the details of collaborating on this Ember addon.
+[![Ember Observer Score](http://emberobserver.com/badges/ember-localforage.svg)](http://emberobserver.com/addons/ember-localforage)
+[![Build Status](https://travis-ci.org/devotox/ember-localforage.svg)](http://travis-ci.org/devotox/ember-localforage)
+[![Coverage Status](https://coveralls.io/repos/github/devotox/mber-localforage/badge.svg)](https://coveralls.io/github/devotox/ember-localforage)
+[![NPM Version](https://badge.fury.io/js/ember-localforage.svg)](http://badge.fury.io/js/ember-localforage)
+[![NPM Downloads](https://img.shields.io/npm/dm/ember-localforage.svg)](https://www.npmjs.org/package/ember-localforage)
+[![Greenkeeper](https://badges.greenkeeper.io/devotox/ember-localforage.svg)](https://greenkeeper.io/)
+
+## Description
+Simple wrapper around localforage to allow usage in ember applications
 
 ## Installation
+* `ember install ember-localforage`
 
-* `git clone <repository-url>` this repository
-* `cd ember-localforage`
-* `npm install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+#### License
+MIT license.
