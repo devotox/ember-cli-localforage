@@ -10,6 +10,8 @@
 ## Description
 Simple wrapper around localforage to allow usage in ember applications
 
+[DEMO](http://devotox.github.io/ember-cli-localforage)
+
 ## Installation
 * `ember install ember-cli-localforage`
 
