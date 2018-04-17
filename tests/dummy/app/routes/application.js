@@ -1,8 +1,8 @@
-import Ember from 'ember';
+import Route from '@ember/routing/route';
 
 import LocalForage from 'ember-cli-localforage';
 
-export default Ember.Route.extend({
+export default Route.extend({
 	async setupController() {
 		let total = await LocalForage.getItem('total');
 		this.controller.set('total', total || 0);
