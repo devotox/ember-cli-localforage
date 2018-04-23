@@ -4,6 +4,7 @@ import LocalForage from 'ember-cli-localforage';
 
 export default Route.extend({
 	async setupController() {
+		this._super(...arguments);
 		let total = await LocalForage.getItem('total');
 		this.controller.set('total', total || 0);
 	},
