@@ -1,10 +1,11 @@
 /* eslint-env node */
 'use strict';
 
-var FastbootTransform = require('fastboot-transform');
+const { name } = require('./package');
+const FastbootTransform = require('fastboot-transform');
 
 module.exports = {
-	name: 'ember-cli-localforage',
+	name,
 	options: {
 		nodeAssets: {
 			localforage: {
