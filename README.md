@@ -35,7 +35,7 @@ Usage
 `import localforage from 'ember-cli-localforage'`
 
 - Also comes with a service for easy initialization of localforage
-- Service has a simple push function proxy to `localforage.push`
+- Service has a simple push function proxy to `localforage.setItem`
 
 Contributing
 ------------------------------------------------------------------------------
