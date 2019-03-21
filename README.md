@@ -12,7 +12,7 @@ ember-cli-localforage
 
 Simple wrapper around localforage to allow usage in ember applications
 
-[DEMO](http://devotox.github.io/ember-cli-localforage)
+[DEMO](https://devotox.github.io/ember-cli-localforage)
 
 
 Compatibility
