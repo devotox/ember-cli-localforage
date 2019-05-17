@@ -3,8 +3,8 @@
 [![Coverage Status](https://codecov.io/gh/devotox/ember-cli-localforage/branch/master/graph/badge.svg)](https://codecov.io/gh/devotox/ember-cli-localforage)
 [![NPM Version](https://badge.fury.io/js/ember-cli-localforage.svg)](http://badge.fury.io/js/ember-cli-localforage)
 [![NPM Downloads](https://img.shields.io/npm/dm/ember-cli-localforage.svg)](https://www.npmjs.org/package/ember-cli-localforage)
-[![Dependency Status](https://david-dm.org/poetic/ember-cli-localforage.svg)](https://david-dm.org/poetic/ember-cli-localforage)
-[![DevDependency Status](https://david-dm.org/poetic/ember-cli-localforage/dev-status.svg)](https://david-dm.org/poetic/ember-cli-localforage#info=devDependencies)
+[![Dependency Status](https://david-dm.org/devotox/ember-cli-localforage.svg)](https://david-dm.org/devotox/ember-cli-localforage)
+[![DevDependency Status](https://david-dm.org/devotox/ember-cli-localforage/dev-status.svg)](https://david-dm.org/devotox/ember-cli-localforage#info=devDependencies)
 [![Greenkeeper](https://badges.greenkeeper.io/devotox/ember-cli-localforage.svg)](https://greenkeeper.io/)
 
 ember-cli-localforage
